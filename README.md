@@ -20,5 +20,5 @@ A simple calculator web application built with HTML, CSS, and JavaScript.
 
 ## Demo
 
-[Demo](https://rakeshm1218.github.io/Calculator_using_javascript/)
+[See the live demo by clicking this](https://rakeshm1218.github.io/Calculator_using_javascript/)
 
