@@ -4,13 +4,13 @@ A simple calculator web application built with HTML, CSS, and JavaScript.
 
 ## Screeenshot
 
-![Calculator](<Screenshot 2024-05-07 094430.png>)
+![Calculator](<screenshots/Screenshot 2024-05-07 094430.png>)
 
 ## Features
 
-* - Perform basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/).
-* - Clear the display to start a new calculation.
-* - Error handling for invalid inputs or operations.
+ * Perform basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/).
+ * Clear the display to start a new calculation.
+ * Error handling for invalid inputs or operations.
 
 ## Usage
 
