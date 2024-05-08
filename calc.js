@@ -1,22 +1,18 @@
-let currentDisplay = '';
+//Calculator program
 
-function appendToDisplay(value) {
-  currentDisplay += value;
-  document.getElementById('display').value = currentDisplay;
-}
-
-function calculate() {
-  try {
-    let result = eval(currentDisplay);
-    document.getElementById('display').value = result;
-    currentDisplay = result.toString();
-  } catch (error) {
-    document.getElementById('display').value = 'Error';
-    currentDisplay = '';
-  }
+const display = document.getElementById("display");
+function appendToDisplay(input) {
+  display.value += input;
 }
 
 function clearDisplay() {
-  currentDisplay = '';
-  document.getElementById('display').value = '';
+  display.value = "";
+}
+
+function calculate() {
+ try {
+  display.value = eval(display.value);
+ } catch (error) {
+  display.value = "Error";
+ }
 }
